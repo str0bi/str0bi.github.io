@@ -1,5 +1,5 @@
 a, p, h1, li, ul {
-    color: white;
+    color: #cdd6f4;
 }
 
 li:not(:last-child) {
@@ -8,6 +8,10 @@ li:not(:last-child) {
 
 body {
   
-  background-color: black;
+  background-color: #1e1e2e;
   
   }
+
+#subtext {
+    color: #7f849c;
+}
