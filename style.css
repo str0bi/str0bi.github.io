@@ -1,5 +1,7 @@
+@import url('https://unpkg.com/@catppuccin/palette/css/catppuccin.css');
+
 a, p, h1, li, ul {
-    color: #cdd6f4;
+    color: var(--ctp-mocha-text);
 }
 
 li:not(:last-child) {
@@ -8,10 +10,10 @@ li:not(:last-child) {
 
 body {
   
-  background-color: #1e1e2e;
+  background-color: var(--ctp-mocha-base);
   
   }
 
 #subtext {
-    color: #7f849c;
+    color: var(--ctp-mocha-overlay1);
 }
