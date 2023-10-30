@@ -17,3 +17,7 @@ body {
 #subtext {
     color: var(--ctp-mocha-overlay1);
 }
+
+#biggy {
+    font-size: 20px;
+}
