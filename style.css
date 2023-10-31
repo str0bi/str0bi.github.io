@@ -26,3 +26,7 @@ body {
     display:inline-grid;
     grid-template-columns: max-content max-content;
 }
+
+.paddy {
+    padding: 40px;
+}
