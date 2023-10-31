@@ -23,8 +23,6 @@ body {
 }
 
 #griddy {
-    display:grid;
-    column-count: 2;
-    column-gap: 10px;
-    column-width: min-content;
+    display:inline-grid;
+    grid-template-columns: 2;
 }
