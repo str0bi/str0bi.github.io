@@ -15,6 +15,7 @@ body {
 }
 
 #subtext {
+    font-size: 14px;
     color: var(--ctp-mocha-overlay1);
 }
 
