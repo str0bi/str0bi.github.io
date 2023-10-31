@@ -12,7 +12,7 @@ body {
   
   background-color: var(--ctp-mocha-base);
   
-  }
+}
 
 #subtext {
     color: var(--ctp-mocha-overlay1);
@@ -23,7 +23,7 @@ body {
 }
 
 #griddy {
-    display:inline-grid;
+    display: grid;
     grid-template-columns: max-content max-content;
 }
 
