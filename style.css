@@ -26,4 +26,5 @@ body {
     display:grid;
     column-count: 2;
     column-gap: 10px;
+    column-width: min-content;
 }
