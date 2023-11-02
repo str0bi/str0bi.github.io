@@ -1,7 +1,7 @@
 @import url('https://unpkg.com/@catppuccin/palette/css/catppuccin.css');
 
 a, p, h1, li, ul {
-    color: var(--ctp-latte-text);
+    color: var(--ctp-latte-base);
     font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -11,13 +11,13 @@ li:not(:last-child) {
 
 body {
   
-  background-color: var(--ctp-latte-overlay2);
+  background-color: var(--ctp-latte-text);
   
 }
 
 #subtext {
     font-size: 14px;
-    color: var(--ctp-latte-subtext0);
+    color: var(--ctp-latte-overlay2);
 }
 
 #biggy {
