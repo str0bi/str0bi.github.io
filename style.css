@@ -11,13 +11,13 @@ li:not(:last-child) {
 
 body {
   
-  background-color: var(--ctp-latte-base);
+  background-color: var(--ctp-latte-overlay2);
   
 }
 
 #subtext {
     font-size: 14px;
-    color: var(--ctp-latte-overlay1);
+    color: var(--ctp-latte-subtext0);
 }
 
 #biggy {
