@@ -40,3 +40,7 @@ body {
 #bigtitle {
     font-size: 45px;
 }
+
+img {
+    vertical-align: middle;
+}
