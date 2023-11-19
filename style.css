@@ -17,6 +17,7 @@ body {
 
 #subtext {
     font-size: 14px;
+    font-style: italic;
     color: var(--ctp-frappe-surface0);
 }
 
