@@ -11,7 +11,7 @@ li:not(:last-child) {
 
 body {
   
-  background-color: var(--ctp-latte-text);
+  background-color: var(--ctp-latte-red);
   
 }
 
