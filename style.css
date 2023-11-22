@@ -3,6 +3,7 @@
 a, p, h1, li, ul {
     color: var(--ctp-frappe-green);
     font-family: 'Courier New', monospace;
+    letter-spacing: 1px;
 }
 
 li:not(:last-child) {
