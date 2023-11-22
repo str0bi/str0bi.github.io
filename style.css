@@ -12,7 +12,8 @@ li:not(:last-child) {
 
 body {
   
-  background-color: var(--ctp-frappe-crust);
+  /*background-color: var(--ctp-frappe-crust);*/
+  background-color: #000000;
   
 }
 
