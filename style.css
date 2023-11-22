@@ -2,7 +2,7 @@
 
 a, p, h1, li, ul {
     color: var(--ctp-frappe-green);
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Courier New', monospace;
 }
 
 li:not(:last-child) {
@@ -18,7 +18,7 @@ body {
 #subtext {
     font-size: 14px;
     font-style: italic;
-    color: var(--ctp-frappe-surface0);
+    color: var(--ctp-frappe-green);
 }
 
 #biggy {
