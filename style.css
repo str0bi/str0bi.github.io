@@ -35,7 +35,7 @@ body {
 #subtext {
     font-size: 14px;
     font-style: italic;
-    color: var(--verylightgrey);
+    color: var(--grey);
 }
 
 #biggy {
