@@ -1,6 +1,6 @@
 @import url('https://unpkg.com/@catppuccin/palette/css/catppuccin.css');
 
-:newpalette {
+:root {
 
     --purple: #cdb4db;
     --lightpink: #ffc8dd;
