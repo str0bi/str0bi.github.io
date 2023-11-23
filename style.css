@@ -1,7 +1,22 @@
 @import url('https://unpkg.com/@catppuccin/palette/css/catppuccin.css');
 
+:newpalette {
+
+    --purple: #cdb4db;
+    --lightpink: #ffc8dd;
+    --pink: #ffafcc;
+    --lightblue: #bde0fe;
+    --blue: #a2d2ff;
+    --white: #fffffe;
+    --black: #030303;
+    --grey: #303030;
+    --lightgrey: #606060;
+    --verylightgrey: #909090;
+
+}
+
 a, p, h1, li, ul {
-    color: var(--ctp-frappe-green);
+    color: var(--white);
     font-family: 'Courier New', monospace;
     letter-spacing: 1px;
 }
@@ -13,14 +28,14 @@ li:not(:last-child) {
 body {
   
   /*background-color: var(--ctp-frappe-crust);*/
-  background-color: #000000;
+  background-color: var(--lightpink);
   
 }
 
 #subtext {
     font-size: 14px;
     font-style: italic;
-    color: var(--ctp-frappe-green);
+    color: var(--verylightgrey);
 }
 
 #biggy {
