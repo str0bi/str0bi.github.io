@@ -16,7 +16,7 @@
 }
 
 a, p, h1, li, ul {
-    color: var(--white);
+    color: var(--black);
     font-family: 'Courier New', monospace;
     letter-spacing: 1px;
 }
