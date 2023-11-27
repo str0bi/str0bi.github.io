@@ -21,6 +21,12 @@ a, p, h1, li, ul {
     letter-spacing: 1px;
 }
 
+#subtext {
+    font-size: 14px;
+    font-style: italic;
+    color: var(--verylightgrey);
+}
+
 li:not(:last-child) {
     padding-bottom: 8px;
 }
@@ -30,12 +36,6 @@ body {
   /*background-color: var(--ctp-frappe-crust);*/
   background-color: var(--blue);
   
-}
-
-#subtext {
-    font-size: 14px;
-    font-style: italic;
-    color: var(--grey);
 }
 
 #biggy {
