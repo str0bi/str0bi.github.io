@@ -36,6 +36,7 @@ body {
   /*background-color: var(--ctp-frappe-crust);*/
   background-image: url('https://media.tenor.com/36vZDFMhH1AAAAAC/winter-snow.gif');
   background-size: cover;
+  background-attachment: fixed;
   
 }
 
