@@ -34,7 +34,8 @@ li:not(:last-child) {
 body {
   
   /*background-color: var(--ctp-frappe-crust);*/
-  background-color: var(--blue);
+  background-color: url("https://media.tenor.com/36vZDFMhH1AAAAAC/winter-snow.gif");
+  background-size: cover;
   
 }
 
