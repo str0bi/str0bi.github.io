@@ -5,7 +5,7 @@
     --purple: #cdb4db;
     --lightpink: #ffc8dd;
     --pink: #ffafcc;
-    --lightblue: #bde0fe;
+    --lightblue: #b2d0dd;
     --blue: #a2d2ff;
     --white: #fffffe;
     --black: #030303;
@@ -16,7 +16,7 @@
 }
 
 a, p, h1, li, ul {
-    color: var(--black);
+    color: var(--white);
     font-family: 'Courier New', monospace;
     letter-spacing: 1px;
 }
@@ -28,7 +28,7 @@ li:not(:last-child) {
 body {
   
   /*background-color: var(--ctp-frappe-crust);*/
-  background-color: var(--lightpink);
+  background-color: var(--blue);
   
 }
 
