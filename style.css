@@ -5,8 +5,8 @@
     --purple: #cdb4db;
     --lightpink: #ffc8dd;
     --pink: #ffafcc;
-    --red: #e93e7c;
-    --green: #35a035;
+    --red: #da7775;
+    --green: #baf2bb;
     --lightblue: #b2d0dd;
     --blue: #7099c7;
     --white: #fffffe;
@@ -36,7 +36,7 @@ li:not(:last-child) {
 body {
   
   /*background-color: var(--ctp-frappe-crust);*/
-  background-image: url('https://media.tenor.com/QKd2b5-9o1EAAAAC/winter.gif');
+  background-image: url('https://images.unsplash.com/photo-1482517967863-00e15c9b44be?q=80&w=1770&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
   background-size: cover;
   background-attachment: fixed;
   
