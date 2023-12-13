@@ -18,7 +18,7 @@
 }
 
 a, p, h1, li, ul {
-    color: var(--red);
+    color: var(--black);
     font-family: Arial, Helvetica, sans-serif;
     letter-spacing: 1px;
     text-shadow: 2px 2px 5px --black;
@@ -27,7 +27,7 @@ a, p, h1, li, ul {
 #subtext {
     font-size: 14px;
     font-style: italic;
-    color: var(--green);
+    color: var(--lightgrey);
     text-shadow: 2px 2px 5px --black;
 }
 
@@ -38,7 +38,7 @@ li:not(:last-child) {
 body {
   
   /*background-color: var(--ctp-frappe-crust);*/
-  background-color: black;
+  background-color: var(--white);
   background-size: cover;
   background-attachment: fixed;
   
