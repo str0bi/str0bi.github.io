@@ -1,24 +1,7 @@
-/*@import url('https://unpkg.com/@catppuccin/palette/css/catppuccin.css');*/ 
-
-:root {
-
-    --purple: #cdb4db;
-    --lightpink: #ffc8dd;
-    --pink: #ffafcc;
-    --red: #da7775;
-    --green: #baf2bb;
-    --lightblue: #b2d0dd;
-    --blue: #7099c7;
-    --white: #fffffe;
-    --black: #030303;
-    --grey: #303030;
-    --lightgrey: #606060;
-    --verylightgrey: #909090;
-
-}
+@import url('https://unpkg.com/@catppuccin/palette/css/catppuccin.css');
 
 a, p, h1, li, ul {
-    color: var(--black);
+    color: var(--ctp-mocha-text);
     font-family: Arial, Helvetica, sans-serif;
     letter-spacing: 1px;
     text-shadow: 2px 2px 5px --black;
@@ -27,7 +10,7 @@ a, p, h1, li, ul {
 #subtext {
     font-size: 14px;
     font-style: italic;
-    color: var(--lightgrey);
+    color: var(--ctp-mocha-subtext0);
     text-shadow: 2px 2px 5px --black;
 }
 
@@ -38,7 +21,7 @@ li:not(:last-child) {
 body {
   
   /*background-color: var(--ctp-frappe-crust);*/
-  background-color: var(--white);
+  background-color: var(--ctp-mocha-base);
   background-size: cover;
   background-attachment: fixed;
   
