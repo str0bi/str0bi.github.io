@@ -1,14 +1,19 @@
 @import url('https://unpkg.com/@catppuccin/palette/css/catppuccin.css');
 
-.elementToFadeInAndOut {
+.twoSecFade {
     opacity: 1;
     animation: fade 2s linear;
 }
 
+.fiveSecFade {
+    opacity: 1;
+    animation: fade 5s linear;
+}
+
 
 @keyframes fade {
-  0%,100% { opacity: 0 }
-  50% { opacity: 1 }
+  0% { opacity: 0 }
+  100% { opacity: 1 }
 }
 
 a, p, h1, li, ul {
@@ -40,6 +45,8 @@ body {
 
 #biggy {
     font-size: 26px;
+    opacity: 1;
+    animation: fade 5s linear;
 }
 
 #griddy {
@@ -57,6 +64,8 @@ body {
 
 #bigtitle {
     font-size: 45px;
+    opacity: 1;
+    animation: fade 2s linear;
 }
 
 .emote {
