@@ -1,10 +1,16 @@
 @import url('https://unpkg.com/@catppuccin/palette/css/catppuccin.css');
 
+@keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }
+
 a, p, h1, li, ul {
     color: var(--ctp-macchiato-text);
     font-family: Arial, Helvetica, sans-serif;
     letter-spacing: 1px;
     text-shadow: 2px 2px 5px --ctp--macchiato-text;
+    animation: fadeIn 2s;
 }
 
 #subtext {
@@ -12,6 +18,7 @@ a, p, h1, li, ul {
     font-style: italic;
     color: var(--ctp-macchiato-subtext0);
     text-shadow: 2px 2px 5px --ctp--macchiato-subtext0;
+    animation: fadeIn 5s;
 }
 
 li:not(:last-child) {
