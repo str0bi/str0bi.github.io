@@ -45,8 +45,6 @@ body {
 
 #biggy {
     font-size: 26px;
-    opacity: 1;
-    animation: fade 5s linear;
 }
 
 #griddy {
@@ -60,12 +58,12 @@ body {
 
 .raddy {
     padding-left: 25px;
+    opacity: 1;
+    animation: fade 5s linear;
 }
 
 #bigtitle {
     font-size: 45px;
-    opacity: 1;
-    animation: fade 2s linear;
 }
 
 .emote {
