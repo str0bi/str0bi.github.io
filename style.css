@@ -84,7 +84,12 @@ a, p, h1, li, ul {
     font-family: Arial, Helvetica, sans-serif;
     letter-spacing: 1px;
     text-shadow: 2px 2px 5px --ctp--macchiato-text;
-    list-style-type: none;
+}
+
+#nobullet {
+    list-style-type: none; /* Remove bullets */
+    padding: 0; /* Remove padding */
+    margin: 0; /* Remove margins */
 }
 
 #subtext {
