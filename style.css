@@ -84,6 +84,7 @@ a, p, h1, li, ul {
     font-family: Arial, Helvetica, sans-serif;
     letter-spacing: 1px;
     text-shadow: 2px 2px 5px --ctp--macchiato-text;
+    list-style-type: none;
 }
 
 #subtext {
